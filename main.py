@@ -115,7 +115,7 @@ def set_calculator(file1, file2):
                     }
                     print_result(result, "Соединение")
                 else:
-                    print(f"⚠ Нужно минимум 2 колонки для соединения (сейчас A={len_a}, B={len_b})")
+                    print(f"Нужно минимум 2 колонки для соединения (сейчас A={len_a}, B={len_b})")
 
             elif choice == '8':
                 if not B:
