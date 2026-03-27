@@ -94,7 +94,6 @@ def set_calculator(file1, file2):
                 result = {row[col] for row in A if col < len(row)}
                 print_result(result, "Проекция")
 
-            # 7. Соединение
             elif choice == '7':
                 if not A or not B:
                     print_result(set(), "Соединение")
@@ -118,7 +117,6 @@ def set_calculator(file1, file2):
                 else:
                     print(f"⚠ Нужно минимум 2 колонки для соединения (сейчас A={len_a}, B={len_b})")
 
-            # Деление
             elif choice == '8':
                 if not B:
                     print("Деление на пустое множество невозможно")
